@@ -1,0 +1,99 @@
+
+body {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #F7F7F7;
+    margin: 0%;
+}
+
+.main-header {
+    color: cornsilk;
+    font-size: larger; 
+    
+    background-image: url("banner_fullsize.png");
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#museum-title {
+    font-style: italic;
+    text-align: center;
+    padding-top: 35vh;
+}
+
+.main-nav, footer {
+    background-color: #ada8c7;
+    text-align: center;
+    color: rgb(65, 53, 88);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 28px;
+}
+
+.main-nav li, footer li {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.main-content, blockquote {
+    padding-top: 30px;
+    padding-left: 28%;
+    padding-right: 28%;
+    font-size: larger;
+}
+
+.sidebar {
+    color: rgb(65, 53, 88);
+    background: linear-gradient(180deg, #ada8c7, aliceblue);
+    float: right;
+    text-align: left;
+    padding: 10px;
+    height: 500px;
+    width: 300px;
+}
+
+a {
+    color: rgb(65, 53, 88);
+    display: block;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+a:hover {
+    background: linear-gradient(45deg, #ada8c7, #938eaf);
+}
+
+table, th, td  {
+    background-color: #938eaf;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse; 
+}
+
+.sidebar a:visited, .museum_links a:visited {
+    color: rgb(0, 75, 136);
+}
+
+a:active {
+    color: purple;
+} 
+
+.architecture_img {
+    width: 850px;
+    height: 200px;
+    max-width: 90%;
+    max-height: 30%;
+    object-fit: cover;
+}
